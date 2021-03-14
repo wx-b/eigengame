@@ -6,6 +6,10 @@ Requirements:
  - [optax](https://github.com/deepmind/optax)
  - [jaxline](https://github.com/deepmind/jaxline)
 
+![eigengame_image](eigengame.png)
+
+
+## Pseudocade
 
 ### Gradient and utility functions
 
