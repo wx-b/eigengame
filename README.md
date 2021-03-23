@@ -13,7 +13,7 @@ Requirements:
 
 ### Gradient and utility functions
 
-```
+```python
 """
 Copyright 2020 DeepMind Technologies Limited. 
 
@@ -72,7 +72,7 @@ def utility(vi, weights, eigs, data):
 ```
 
 ### EigenGame Update functions
-```   
+```python
 def _grads_and_update(vi, weights, eigs, input, opt_state, axis_index_groups):
     """Compute utilities and update directions, psum and apply.
     Args:
@@ -111,7 +111,7 @@ def _update_with_grads(vi, grads, opt_state):
 
 
 ### Skeleton for Jaxline experiment
-```
+```python
 def init(self, *):
     """Initialization function for a Jaxline experiment."""
     weights = np.eye(self._total_k) * 2 - np.ones((self._total_k, self._total_k))
